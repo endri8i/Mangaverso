@@ -1,6 +1,6 @@
 const http = require("http");
 const port = process.env.PORT || 3000;
-const nome = process.env.NOME_SITE || "Biblioteca da Escola";
+const nome = process.env.NOME_SITE || "Biblioteca da Escola.";
 
 http.createServer((req, res) => {
   console.log(`Acesso recebido: ${req.url}`);
